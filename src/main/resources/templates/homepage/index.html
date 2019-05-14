@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" 
+            xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" 
+	        layout:decorate="~{common/masterlayout}">
+<head>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/homepage/index.css}" />
+    <title>Products Management System</title>
+</head>
+<body>
+    <th:block layout:fragment="content">
+        <h3>Products Management System</h3>
+        <hr/>
+        <h5>This is a demo Spring Boot WebApp</h5>
+        <h5>Product Management system</h5>
+    </th:block>
+
+    <th:block layout:fragment="footer"></th:block>
+    
+</body>
+</html>
